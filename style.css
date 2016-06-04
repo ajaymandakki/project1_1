@@ -1,1 +1,65 @@
+h1, h2, h3, h4{
+    	color: purple;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0em 5em 5em 5em;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+	color: black;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
 
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background-image: url("1.jpg");
+}
+form{
+margin: 50px;
+margin-left: 350px;
+font-family: arial; 
+font-size: 20px; 
+line-height: 1.2em; 
+width: 100%; 
+}
+#page{ margin: 20px; }
+
+#logo{
+	width: 35%;
+	margin-top: 10px;
+	font-family: georgia;
+	font-size: 20px;
+	display: inline-block;
+}
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: center;
+	float: middle;
+}
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 62px;
+		}
+			#nav ul li a{
+				padding: 20px;
+				background: purple;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #ff8f00; }
+
+#content{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
+}
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
